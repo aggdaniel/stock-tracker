@@ -3,6 +3,9 @@ const axios = require('axios');
 
 const apiKey = "0C79VRGS91H215AF"; 
 const app = express(); 
+const cors = require('cors');
+
+app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
