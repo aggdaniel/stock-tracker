@@ -1,9 +1,9 @@
 const express = require('express');
 const axios = require('axios'); 
+const cors = require('cors');
 
 const apiKey = "0C79VRGS91H215AF"; 
 const app = express(); 
-const cors = require('cors');
 
 app.use(cors({
     origin: 'https://amayadaniel.netlify.app',
